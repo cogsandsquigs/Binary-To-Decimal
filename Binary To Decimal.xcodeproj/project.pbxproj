@@ -15,6 +15,8 @@
 		F678EACD2C2DEAF800D3891A /* Gizmos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F678EACC2C2DEAF100D3891A /* Gizmos.swift */; };
 		F678EACF2C2DEE5700D3891A /* AdvanceButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F678EACE2C2DEE4A00D3891A /* AdvanceButtonView.swift */; };
 		F678EAD12C2DF0C500D3891A /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F678EAD02C2DF0C000D3891A /* InputView.swift */; };
+		F6903A242C2E0F9D004D340E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F6903A232C2E0F9D004D340E /* README.md */; };
+		F6903A252C2E0F9D004D340E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F6903A222C2E0F9D004D340E /* LICENSE */; };
 		F6C1FD342C2DC28500F06361 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C1FD332C2DC28300F06361 /* Fonts.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,8 @@
 		F678EACC2C2DEAF100D3891A /* Gizmos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gizmos.swift; sourceTree = "<group>"; };
 		F678EACE2C2DEE4A00D3891A /* AdvanceButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvanceButtonView.swift; sourceTree = "<group>"; };
 		F678EAD02C2DF0C000D3891A /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		F6903A222C2E0F9D004D340E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F6903A232C2E0F9D004D340E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F6C1FD332C2DC28300F06361 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		F6C1FD432C2DC52B00F06361 /* Binary-To-Decimal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Binary-To-Decimal-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -82,6 +86,8 @@
 		F6485B7A2C2C4FC7004204A9 /* Binary To Decimal */ = {
 			isa = PBXGroup;
 			children = (
+				F6903A222C2E0F9D004D340E /* LICENSE */,
+				F6903A232C2E0F9D004D340E /* README.md */,
 				F6C1FD432C2DC52B00F06361 /* Binary-To-Decimal-Info.plist */,
 				F6C1FD352C2DC3CA00F06361 /* Resources */,
 				F6485B7B2C2C4FC7004204A9 /* Binary_To_DecimalApp.swift */,
@@ -166,6 +172,8 @@
 			files = (
 				F6485B842C2C4FC8004204A9 /* Preview Assets.xcassets in Resources */,
 				F6485B802C2C4FC8004204A9 /* Assets.xcassets in Resources */,
+				F6903A242C2E0F9D004D340E /* README.md in Resources */,
+				F6903A252C2E0F9D004D340E /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
