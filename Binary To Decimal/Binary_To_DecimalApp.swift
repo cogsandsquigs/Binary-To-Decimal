@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct Binary_To_DecimalApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
+	var body: some Scene {
+		WindowGroup {
+			ContentView()
+				.environment(\.font, Font.custom("FiraCode-Regular", size: 14))
+		}
+		.windowResizability(.contentSize)
+	}
 }
