@@ -15,11 +15,8 @@ struct ContentView: View {
 
 	var body: some View {
 		VStack {
-			VStack {
+			VStack(spacing: 50) {
 				InputView(b2d: self.b2d)
-
-				Spacer()
-					.frame(height: 50)
 
 				AdvanceButtonView(b2d: self.b2d)
 			}
@@ -52,11 +49,7 @@ struct ContentView: View {
 					} else if self.b2d.state == .StoreDecDigit {
 						Text("+ 00110000")
 
-						HStack(spacing: 0) {
-							Spacer()
-
-							Padded16Bits(self.b2d.last16Bits + 0b00110000)
-						}
+						Padded16Bits(self.b2d.last16Bits + 0b00110000)
 					}
 				}
 
@@ -91,7 +84,6 @@ struct ContentView: View {
 			.fixedSize(horizontal: false, vertical: true)
 			.padding()
 			.font(.largerTitle)
-			.layoutPriority(1)
 
 			Spacer()
 

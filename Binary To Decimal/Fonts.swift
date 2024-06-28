@@ -20,7 +20,7 @@ public extension Font {
 	
 	/// Create a font with the large title text style.
 	static var largerTitle: Font {
-		return Font.custom("FiraCode-Regular", size: NSFont.preferredFont(forTextStyle: .largeTitle).pointSize + 18)
+		return Font.custom("FiraCode-Regular", size: NSFont.preferredFont(forTextStyle: .largeTitle).pointSize + 16)
 	}
 
 	/// Create a font with the title text style.
@@ -95,7 +95,7 @@ public extension Font {
 	
 	/// Create a font with the large title text style.
 	static var largerTitle: Font {
-		return Font.custom("FiraCode-Regular", size: UIFont.preferredFont(forTextStyle: .largeTitle).pointSize + 18)
+		return Font.custom("FiraCode-Regular", size: UIFont.preferredFont(forTextStyle: .largeTitle).pointSize + 16)
 	}
 	
 	/// Create a font with the title text style.

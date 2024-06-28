@@ -22,7 +22,8 @@ class Bin2Dec: ObservableObject {
 
 	@Published var state: B2DState = .RotLeft
 
-	private var currentDivision: Int = 0
+	/// The original number
+	var originalNum: UInt16
 
 	/// The first 16 bits of the binary number, from right to left. AKA:
 	///                         /--------------------> These ones
@@ -54,6 +55,7 @@ class Bin2Dec: ObservableObject {
 
 	init(binNum: UInt16) {
 		self.binNum = UInt32(binNum)
+		self.originalNum = binNum
 	}
 
 	/// Advances the state machine by 1 iteration
@@ -123,6 +125,7 @@ class Bin2Dec: ObservableObject {
 		self.binNumCarry = false
 		self.state = .RotLeft
 		self.binNum = UInt32(newBinNum)
+		self.originalNum = newBinNum
 	}
 
 	/// Get the subtract 10 with carry result
